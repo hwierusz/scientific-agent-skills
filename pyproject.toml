@@ -80,7 +80,8 @@ known-first-party = ["scientific_agent_skills"]
 
 [tool.mypy]
 python_version = "3.10"
-strict = true
+# relaxed strict mode for personal exploration — re-enable before contributing upstream
+strict = false
 warn_return_any = true
 warn_unused_configs = true
 ignore_missing_imports = true
